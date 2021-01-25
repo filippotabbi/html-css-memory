@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cyan;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: 'Potta One', cursive;
+  font-size: 40px;
+}
+
+.table {
+  width: 660px;
+  height: 560px;
+  background-color: cyan;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  margin-top: 3%;
+
+}
+
+.row1, .row2, .row3,{
+  width: 100%;
+  height: 100%;
+}
+
+.col_100 {
+  width: 150px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.bg_pattern {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/pattern.png');
+  background-size: cover;
+}
+.square1{
+  position: absolute;
+}
+
+.square2{
+  position: absolute;
+  top: 0;
+  left: 170px;
+}
+
+.square3{
+  position: absolute;
+  top: 0;
+  left: 340px;
+}
+
+.square4{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.square1-2{
+  position: absolute;
+  top: 190px;
+}
+
+.square2-2{
+  position: absolute;
+  top: 190px;
+  left: 170px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+.text_card {
+  font-family: 'Potta One', cursive;
+  color: red;
+  font-size: 22px;
+  line-height: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.square3-2{
+  position: absolute;
+  top: 190px;
+  left: 340px;
+}
+
+.square4-2{
+  position: absolute;
+  top: 190px;
+  right: 0;
+}
+
+.square1-3{
+  position: absolute;
+  top: 380px;
+}
+
+.square2-3{
+  position: absolute;
+  top: 380px;
+  left: 170px;
+}
+
+.square3-3{
+  position: absolute;
+  top: 380px;
+  left: 340px;
+}
+
+.square4-3{
+  position: absolute;
+  top: 380px;
+  right: 0;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  color: black;
+  font-weight:  bolder;
+}
+
+.bg_pattern {
+  display: block;
+}
+
+.transform_card{
+  width: 100%;
+  height: 100%;
+}
+
+.none_card {
+  display: none;
+}
+
+.transform_card:hover .bg_pattern{
+  display: none;
+}
+
+.transform_card:hover .none_card{
+  display: block;
+}
